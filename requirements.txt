@@ -1,0 +1,8 @@
+numpy
+opencv-python
+streamlit
+pillow
+openvino
+opencv-python-headless
+gdown
+ffmpeg-python  

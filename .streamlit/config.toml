@@ -1,0 +1,9 @@
+[server]
+maxUploadSize = 500
+
+[theme]
+primaryColor = "#FF7A00"              # Vibrant orange accent
+backgroundColor = "#FDF6FF"           # Soft pastel gradient-like base
+secondaryBackgroundColor = "#F2F8FF"  # Light bluish card background for contrast
+textColor = "#1A1A1A"                 # Dark text for readability
+font = "sans serif"
