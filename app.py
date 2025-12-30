@@ -7,6 +7,14 @@ from io import BytesIO
 from video_colorizer import colorize_video  # Import the video colorizer function
 from enhancements import apply_style_transfer # Import enhancement functions
 
+import gdown
+# Ensure models directory exists
+url = "https://drive.google.com/file/d/1LW938ulH_RQvwv8WB2YfTLLH932Ro_th/view?usp=sharing"
+output = "colorization_release_v2.caffemodel"
+gdown.download(url, output, quiet=False)
+
+
+
 def resize_image(img, max_dim=512):
     height, width = img.shape[:2]
     if max(height, width) > max_dim:
